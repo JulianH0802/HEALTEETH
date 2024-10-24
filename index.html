@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Rumbo</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- CABECERA DEL SITIO -->
+    <header>
+        <nav>
+            <a href="index.html"><img src="img/logo.png" alt="Logo HealTeeth"></a>
+
+            <ul>
+                <a href="#inicio">Inicio</a>
+                <a href="#metodo">Método HealTeeth</a>
+                <a href="#tratamientos">Tratamientos</a>
+                <a href="#promociones">Promociones</a>
+                <a href="#ubicacion">Ubicación</a>
+                <a href="#contacto">Agenda una cita</a>
+
+            </ul>
+        </nav>
+
+        <div id="hero">
+            <img src="img/hilo-dental.png" alt="hilo-dental"></a>
+            <h2>HealTeeth</h2>
+            <h1>¡SONRÍELE A LA VIDA!</h1>
+            <button>CONOCENOS</button>
+        </div>
+    </header>
+
+    <!-- SECCIONES PRINCIPALES DEL SITIO -->
+    <main>
+        <section id="metodo">
+            <h2>MÉTODO HEALTEETH</h2>
+            <p>En <b>HealTeeth</b> nos preocupamos por tu salud y belleza dental <br> 
+                En el siguiente video, podrás detallar nuestra preocupación por tu salud e imagen dental </p>
+            <div class="fila">
+
+                <article>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/gr1TD2BJYqE?si=JZ-n5aQWORHpjrwb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </article>
+
+            </div>
+
+        </section>
+
+        <section id="tratamientos">
+            <h2>TRATAMIENTOS</h2>
+
+            <div class="fila">
+                <article>
+                    <img src="img/cartagena.png" alt="periodoncia">
+                    <h3>PERIODONCIA</h3>
+                </article>
+
+                <article>
+                    <img src="img/barranquilla.png" alt="ortodoncia">
+                    <h3>ORTODONCIA</h3>
+                </article>
+            </div>
+
+            <div class="fila">
+                <article>
+                    <img src="img/llanos.png" alt="limpieza">
+                    <h3>LIMPIEZA DENTAL</h3>
+                </article>
+
+                <article>
+                    <img src="img/laguajira.png" alt="implante">
+                    <h3>IMPLANTE DENTAL</h3>
+                </article>
+            </div>
+        </section>
+        
+        <section id="promociones">
+            <h2>PROMOCIONES</h2>
+            <p>Manejamos las mejores promociones <br>
+                Para que cuides tu salud dental con nosotros
+            </p>
+            <div  class="fila">
+
+                <article>
+                    <img src="img/gratis.png" alt="gratis">
+                    <p>
+                        Diagnóstico y Radiografía <br>
+                        100 % <b>GRATIS</b> para nuevos clientes
+                    </p>
+                    <button>OBTENER</button>
+                </article>
+
+                <article>
+                    <img src="img/20.png" alt="descuento20">
+                    <p>
+                        En periodoncia <br>
+                        Solo por este mes
+                    </p>
+                    <button>OBTENER</button>
+                </article>
+
+                <article>
+                    <img src="img/50.png" alt="descuento50">
+                    <p>
+                        En tu limpieza dental <br>
+                        Después de finalizar tu ortodoncia
+                    </p>
+                    <button>OBTENER</button>
+                </article>
+
+                <article>
+                    <img src="img/30.png" alt="descuento30">
+                    <p>
+                        En implantes dentales <br>
+                        Para clientes con nuestra <b>MEMBRESÍA</b>
+                    </p>
+                    <button>OBTENER</button>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="ubicacion">
+            <h2>NUESTRA UBICACIÓN</h2>
+            <P>
+                Nuestra ubicación es fácil de encontrar <br>
+                solo sigue las indicaciones a continuación:
+            </P>
+            <div class="fila">
+
+                <article>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.367303203938!2d-74.09701852432377!3d4.706095341609338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9b335ebbeea9%3A0x5202984c30b07846!2sDg.%2084a%20%2377-64%2C%20Bogot%C3%A1!5e0!3m2!1ses-419!2sco!4v1729782252876!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>AGENDA TU CITA</h2>
+
+            <p>Ingresa los siguientes datos personales <br>
+                Fecha, hora y especialidad de tu cita
+            </p>
+
+            <form action="#">
+            <input type="text" placeholder="NOMBRES">
+            <input type="number" placeholder="APELLIDOS">
+            <input type="email" placeholder="TELÉFONO">
+            <input type="date" placeholder="FECHA">
+            <input type="time" placeholder="HORA">
+            <select name="especialidad" id="">
+                <option value="">Especialidad:</option>
+                <option value="">Ortodoncia</option>
+                <option value="">Limpieza Dental</option>
+                <option value="">Periodoncia</option>
+                <option value="">Implante Dental</option>
+            </select>
+
+            <button>ENVIAR</button>
+            </form>
+
+        </section>
+    </main>
+
+    <!-- PIE DE PAGINA -->
+    <footer>
+
+        <p> © Todos los derechos reservados <br>
+            contacto@HealTeeth.com <br>
+            +57 3059262057 <br>
+            Dg. 84a #77-63 </p>
+
+    </footer>
+</body>
+</html>
